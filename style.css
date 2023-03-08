@@ -1,0 +1,40 @@
+:root {
+  --darkblue: #073962;
+  --mint: #a7e4e1;
+  --lightblue: #42bfdd;
+  --pink: #ff66b3;
+  --white: #fff;
+  --font-size: 1.3rem;
+  --poiret: "Poiret One", cursive;
+  --lato: "Lato", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--lato);
+  background-color: var(--darkblue);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+.title {
+  font-family: var(--poiret);
+}
+a {
+  color: var(--lightblue);
+}
+a:hover {
+  color: var(--mint);
+  text-decoration: none;
+}
