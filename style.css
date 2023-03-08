@@ -72,6 +72,7 @@ a:hover {
   margin-top: 3rem;
 }
 
+/* nav styles */
 nav {
   font-size: 90%;
 }
@@ -135,6 +136,54 @@ nav li:first-child {
   }
 }
 
+/* projects styles */
+#projects {
+  padding: 3rem 2rem;
+}
+
+#projects h2 {
+  font-family: var(--poiret);
+}
+
+#projects h3 {
+  color: var(--mint);
+}
+
+#projects h4 {
+  font-size: 1rem;
+  font-family: var(--poiret);
+  margin: 0;
+}
+
+#projects p {
+  background-color: var(--lightblue);
+  color: var(--darkblue);
+  padding: 1rem;
+  width: 800px;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+
+#projects img {
+  border-top: var(--mint) 1px solid;
+  border-left: var(--mint) 5px solid;
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 2rem 0 4rem 0;
+}
+
+#projects ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* footer styles */
 footer {
   text-align: center;
   font-family: var(--poiret);
