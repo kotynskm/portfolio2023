@@ -32,7 +32,9 @@ body {
   font-family: var(--poiret);
   font-size: 3rem;
 }
-
+#about {
+  padding: 2rem;
+}
 #about .name {
   color: var(--pink);
 }
@@ -115,4 +117,34 @@ nav li:first-child {
 
 .button:hover {
   color: var(--darkblue);
+}
+
+/* styles for larger screen size */
+@media (min-width: 850px) {
+  /* margin 0 auto centers it on the page */
+  nav {
+    margin: 0 auto;
+    padding: 0rem 2rem;
+  }
+  /* push logo over to the left */
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
+
+footer {
+  text-align: center;
+  font-family: var(--poiret);
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-weight: bold;
 }
