@@ -69,3 +69,50 @@ a:hover {
 #contact a:hover {
   color: var(--lightblue);
 }
+
+nav {
+  font-size: 90%;
+}
+
+nav h1 a {
+  font-family: var(--poiret);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+nav h1 a:hover {
+  color: var(--pink);
+}
+
+/* push onto its own line */
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.button {
+  color: var(--white);
+  background-color: var(--pink);
+  padding: 0.5rem 1rem;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--darkblue);
+}
