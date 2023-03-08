@@ -2,7 +2,7 @@
   --darkblue: #073962;
   --mint: #a7e4e1;
   --lightblue: #42bfdd;
-  --pink: #ff66b3;
+  --pink: #fc7cbc;
   --white: #fff;
   --font-size: 1.3rem;
   --poiret: "Poiret One", cursive;
@@ -30,11 +30,42 @@ body {
 
 .title {
   font-family: var(--poiret);
+  font-size: 3rem;
 }
+
+#about .name {
+  color: var(--pink);
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
 a {
   color: var(--lightblue);
 }
+
 a:hover {
   color: var(--mint);
   text-decoration: none;
+}
+
+#contact {
+  background-color: var(--mint);
+  color: var(--darkblue);
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+#contact p:last-child {
+  margin-top: 3rem;
+}
+
+#contact a {
+  color: var(--darkblue);
+}
+
+#contact a:hover {
+  color: var(--lightblue);
 }
